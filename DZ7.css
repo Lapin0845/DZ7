@@ -1,0 +1,45 @@
+.main-block{
+  max-width: 200px;
+    display: flex;
+    padding: 20px;
+    font-size: 50px;
+}
+.block1{
+    background-color: deepskyblue;
+    border: 5px solid darkslateblue;
+    box-shadow: 0 0 25px blueviolet;
+    background-image: url("https://wallbox.ru/resize/320x240/wallpapers/main/201550/a1a749de3f82bd0.jpg");
+    color: yellow;
+    filter: grayscale(1);
+    transition: 1s;
+}
+.block1:hover{
+    filter: grayscale(0);
+}
+.block2{
+    background-color: blue;
+    margin-left: 30px;
+    border: 5px solid white;
+    box-shadow: 0 0 25px;
+    background-image: url("https://c1.peakpx.com/wallpaper/29/92/1019/light-shadow-reddish-sunshine-shade-wallpaper-thumb.jpg");
+    color: gold;
+    -webkit-transition: all 0.5s ease;
+          transition: all 0.9s ease;
+}
+.block2:hover{
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.block3{
+    background-color: deepskyblue;
+    margin-left: 30px;
+    border: 5px solid darkslateblue;
+    box-shadow: 0 0 25px blueviolet;
+    background-image: url("https://www.prokoni.ru/forum/data/avatars/o/142/142239.jpg?1583408907");
+    color: chartreuse;
+    filter: blur(5px);
+    transition: 3s;
+}
+.block3:hover{
+    filter: blur(0);
+}
